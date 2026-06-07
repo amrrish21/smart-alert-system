@@ -116,7 +116,7 @@ smart-alert-system/
 ### 1 — Clone & install
 
 ```bash
-git clone https://github.com/YOUR_HANDLE/smart-alert-system.git
+git clone https://github.com/amrrish21/smart-alert-system.git
 cd smart-alert-system
 
 python -m venv .venv
