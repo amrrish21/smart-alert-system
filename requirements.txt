@@ -1,0 +1,16 @@
+# Smart Automated Notification & Alerts System — dependencies
+# Pin major versions for reproducibility; update patch versions freely.
+
+# --- Core scraping ---
+requests>=2.31,<3.0
+beautifulsoup4>=4.12,<5.0
+lxml>=5.0,<6.0         # faster HTML parser back-end for BeautifulSoup
+
+# --- Notifications ---
+twilio>=9.0,<10.0      # SMS via Twilio REST API
+
+# --- Config / environment ---
+python-dotenv>=1.0,<2.0
+
+# --- Type stubs (optional, for IDE support) ---
+types-requests>=2.31
